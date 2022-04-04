@@ -553,6 +553,30 @@ header .search-bar-container label:hover{
   text-align: center;
 }
 
+.eternal{
+  position: relative;
+  width: 90%;
+  /* height: 300px; */
+  background: #444;
+ margin: 60px auto;
+ box-shadow: 2px 5px 10px rgba(0,0,0,.7);
+}
+.eternal .box{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  line-height: 300px;
+
+}
+.eternal .box .team p{
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 110px;
+  text-align: center;
+}
+
 .container-footer{
 	max-width: 1170px;
 	margin:auto;
@@ -705,7 +729,13 @@ ul{
     margin:1.5rem 0;    
     background:#222;
   }
-
+  .eternal .box{
+    display: flex;
+    flex-direction: column;
+  }
+  .eternal .box .team p{
+   font-size: 20px;
+  }
 }
 
 @media (max-width:450px){
